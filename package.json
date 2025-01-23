@@ -9,6 +9,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "hg-pages -d build",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
@@ -29,5 +31,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "./"
+  "homepage": "https://Grey-lovelaceK.github.io/TodoAppReact",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
